@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houston Spartans - Esports Community</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.png" alt="Houston Spartans">
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#" class="nav-link">Home</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Teams</a>
+                <a href="#" class="nav-link">Creators</a>
+                <a href="#" class="nav-link">News</a>
+                <a href="#" class="nav-link">Contact</a>
+                <a href="https://store.houstonspartans.com" class="nav-link" target="_blank">Store</a>
+                <a href="https://discord.gg/fP5Ek7Xv3A" class="nav-link discord-btn" target="_blank">
+                    <i class="fab fa-discord"></i> Join Discord
+                </a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-particles"></div>
+            <div class="hero-gradient"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">WELCOME TO</span>
+                <span class="title-main">SPARTAN NATION</span>
+            </h1>
+            <p class="hero-description">
+                <span class="description-highlight">Rise.</span>
+                <span class="description-highlight">Compete.</span>
+                <span class="description-highlight">Conquer.</span>
+            </p>
+            <div class="hero-cta">
+                <a href="https://discord.gg/fP5Ek7Xv3A" target="_blank" class="cta-button primary">
+                    <i class="fab fa-discord"></i>
+                    <span>JOIN THE SPARTANS</span>
+                    <div class="button-shine"></div>
+                </a>
+                <button class="scroll-indicator" onclick="scrollToMission()">
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+        </div>
+        <div class="hero-logo">
+            <div class="logo-glow">
+                <img src="images/logo.png" alt="Houston Spartans Logo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section id="mission" class="mission">
+        <div class="container">
+            <h2>WELCOME & JOIN OUR SPARTAN JOURNEY</h2>
+            <p>At the Houston Spartans, our mission is to empower every player to achieve their goals and unlock their full potential at the highest level.</p>
+            
+            <div class="mission-cards">
+                <div class="mission-card">
+                    <div class="card-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>COMPETITION</h3>
+                    <p>"Rise. Compete. Conquer."</p>
+                </div>
+                <div class="mission-card">
+                    <div class="card-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>COMMUNITY</h3>
+                    <p>Community is a vibrant and inclusive group of passionate gamers, dedicated to supporting each other</p>
+                </div>
+                <div class="mission-card">
+                    <div class="card-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>CONTENT</h3>
+                    <p>Engaging content that showcases high-level gameplay</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners">
+        <div class="container">
+            <h2>OUR <span class="heading-highlight">PARTNERS</span></h2>
+            <div class="carousel-container">
+                <div class="partners-carousel">
+                    <div class="partner-logo">
+                        <img src="/images/partners/stafford-esports-logo.png" alt="Stafford Esports">
+                    </div>
+                    <div class="partner-logo">
+                        <img src="/images/partners/never-chalked-logo.png" alt="Never Chalked">
+                    </div>
+                    <div class="partner-logo">
+                        <img src="/images/partners/tx-sef-logo.png" alt="Texas SEF">
+                    </div>
+                    <div class="partner-logo">
+                        <img src="/images/partners/aldine-esports-logo.png" alt="Aldine Esports">
+                    </div>
+                    <div class="partner-logo">
+                        <img src="/images/partners/war-gaming-logo.png" alt="WAR Gaming">
+                    </div>
+                    <div class="partner-logo">
+                        <img src="/images/partners/kindr3d-sauce-logo.png" alt="Kindr3d Sauce Co">
+                    </div>
+                    <div class="partner-logo">
+                        <img src="/images/partners/bluebonnet-logo.png" alt="Bluebonnet Law Firm">
+                    </div>
+                    <div class="partner-logo">
+                        <img src="/images/sponsors/ssi-pc-optimization-logo.png" alt="SSI PC Optimization">
+                    </div>
+                    <div class="partner-logo">
+                        <img src="/images/sponsors/rally-esports-logo.png" alt="Rally Esports">
+                    </div>
+                    <div class="partner-logo">
+                        <img src="/images/sponsors/soardogg-logo.png" alt="SoarDogg">
+                    </div>
+                    <!-- Duplicate logos for seamless loop -->
+                    <div class="partner-logo">
+                        <img src="/images/partners/stafford-esports-logo.png" alt="Stafford Esports">
+                    </div>
+                    <div class="partner-logo">
+                        <img src="/images/partners/never-chalked-logo.png" alt="Never Chalked">
+                    </div>
+                    <div class="partner-logo">
+                        <img src="/images/partners/tx-sef-logo.png" alt="Texas SEF">
+                    </div>
+                    <div class="partner-logo">
+                        <img src="/images/partners/aldine-esports-logo.png" alt="Aldine Esports">
+                    </div>
+                    <div class="partner-logo">
+                        <img src="/images/partners/war-gaming-logo.png" alt="WAR Gaming">
+                    </div>
+                    <div class="partner-logo">
+                        <img src="/images/partners/kindr3d-sauce-logo.png" alt="Kindr3d Sauce Co">
+                    </div>
+                    <div class="partner-logo">
+                        <img src="/images/partners/bluebonnet-logo.png" alt="Bluebonnet Law Firm">
+                    </div>
+                    <div class="partner-logo">
+                        <img src="/images/sponsors/ssi-pc-optimization-logo.png" alt="SSI PC Optimization">
+                    </div>
+                    <div class="partner-logo">
+                        <img src="/images/sponsors/rally-esports-logo.png" alt="Rally Esports">
+                    </div>
+                    <div class="partner-logo">
+                        <img src="/images/sponsors/soardogg-logo.png" alt="SoarDogg">
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 40px;">
+                <button class="view-all-btn">ALL PARTNERS <i class="fas fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="community">
+        <div class="container">
+            <h2>OUR <span class="heading-highlight">COMMUNITY</span></h2>
+            <p class="community-description">The Houston Spartans community is a vibrant and inclusive group of passionate gamers, dedicated to supporting each other, building relationships, celebrating achievements, and fostering a positive esports culture.</p>
+            
+            <div class="community-showcase">
+                <div class="community-images">
+                    <div class="community-image-card">
+                        <img src="/images/community/community-1.png" alt="Houston Spartans Community Event" loading="lazy">
+                        <div class="image-overlay">
+                            <div class="overlay-content">
+                                <i class="fas fa-trophy"></i>
+                                <span>Tournaments</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="community-image-card">
+                        <img src="/images/community/community-2.png" alt="Houston Spartans Gaming Session" loading="lazy">
+                        <div class="image-overlay">
+                            <div class="overlay-content">
+                                <i class="fas fa-users"></i>
+                                <span>Community Events</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="community-image-card">
+                        <img src="/images/community/community-3.png" alt="Houston Spartans Tournament" loading="lazy">
+                        <div class="image-overlay">
+                            <div class="overlay-content">
+                                <i class="fas fa-gamepad"></i>
+                                <span>Gaming Sessions</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="community-steps">
+                    <div class="step">
+                        <div class="step-number">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="step-content">
+                            <h3>JOIN THE CONVERSATION</h3>
+                            <p>Connect with the Houston Spartans community by joining our social media channels and Discord server.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">
+                            <i class="fab fa-discord"></i>
+                        </div>
+                        <div class="step-content">
+                            <h3>JOIN THE DISCORD SERVER</h3>
+                            <p>Dive deeper by joining the Houston Spartans' Discord server, where you can chat with players, fans, and staff directly.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div class="step-content">
+                            <h3>ATTEND EVENTS AND TOURNAMENTS</h3>
+                            <p>Experience the community in action by attending events, whether they're online tournaments, local meetups, or watch parties.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="view-all-btn">JOIN OUR COMMUNITY <i class="fas fa-arrow-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Merch Section -->
+    <section id="merch" class="merch">
+        <div class="merch-background">
+            <div class="merch-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="merch-content">
+                <h2>SPARTAN MERCH IS LIVE</h2>
+                <a href="https://store.houstonspartans.com" target="_blank" class="merch-cta-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>GET YOURS NOW</span>
+                    <i class="fas fa-arrow-right"></i>
+                    <div class="button-shine"></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Spartans Section -->
+    <section id="spartans" class="spartans">
+        <div class="container">
+            <h2>OUR <span class="heading-highlight">SPARTANS</span></h2>
+            <p>Get to know a few of our featured Houston Spartans</p>
+            
+            <div class="spartans-grid">
+                <div class="spartan-card">
+                    <div class="spartan-image">
+                        <img src="images/headshots/profile-ciscodisco.png" alt="CiscoDisco">
+                    </div>
+                    <div class="spartan-info">
+                        <h3>CISCODISCO</h3>
+                        <span class="role">CONTENT CREATOR</span>
+                        <div class="social-links">
+                            <a href="#" aria-label="Follow CiscoDisco on X/Twitter">
+                                <i class="fab fa-x-twitter"></i>
+                            </a>
+                            <a href="#" aria-label="Follow CiscoDisco on YouTube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="spartan-card">
+                    <div class="spartan-image">
+                        <img src="images/headshots/profile-kevology.png" alt="Kevin Tucker">
+                    </div>
+                    <div class="spartan-info">
+                        <h3>KEVOLOGY</h3>
+                        <p>KEVIN TUCKER</p>
+                        <span class="role">ASSISTANT</span>
+                        <div class="social-links">
+                            <a href="#" aria-label="Follow Kevology on X/Twitter">
+                                <i class="fab fa-x-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="spartan-card">
+                    <div class="spartan-image">
+                        <img src="images/headshots/profile-apollo.png" alt="Trae Pancerella">
+                    </div>
+                    <div class="spartan-info">
+                        <h3>APOLLO</h3>
+                        <p>TRAE PANCERELLA</p>
+                        <span class="role">CALL OF DUTY DIRECTOR</span>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-x-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="champion-section">
+                <h3>EXPERIENCE TO BE A CHAMPION?</h3>
+                <p>Learn from Call of Duty League Professional and Co-Founder, Spart</p>
+                <div class="champion-video">
+                    <iframe 
+                        src="https://www.youtube.com/embed/3v32FmKoEWI" 
+                        title="Experience to be a Champion - Houston Spartans" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="news">
+        <div class="container">
+            <h2>LATEST NEWS POSTS</h2>
+            <p>Find Out What's Happening in Spartan Nation: Stay Updated with the Latest News, Events, and Highlights from the Houston Spartans Esports Community!</p>
+            
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="/images/blog/blog-1.png" alt="Miami LAN">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">Tournaments</span>
+                        <h3>RECAP: MIAMI LAN – ACADEMY RED</h3>
+                        <p>Pool Play The first match was against X Element Black, a…</p>
+                        <div class="news-meta">
+                            <span class="author">By Houston Spartans</span>
+                            <span class="date">January 31, 2025</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="/images/blog/blog-2.png" alt="4v4 BO3 Variant Tournament">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">Tournaments</span>
+                        <h3>HOUSTON SPARTANS 4V4 BO3 VARIANT TOURNAMENT</h3>
+                        <p>Houston Spartans Tournament Ruleset January 26th at 2 pm cstCheck in begins…</p>
+                        <div class="news-meta">
+                            <span class="author">By Houston Spartans</span>
+                            <span class="date">January 21, 2025</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="/images/blog/blog-3.png" alt="Join Houston Spartans Esports Team">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">Careers</span>
+                        <h3>JOIN THE HOUSTON SPARTANS ESPORTS TEAM AS GENERAL MANAGER!</h3>
+                        <p>Are you passionate about esports and ready to lead one of…</p>
+                        <div class="news-meta">
+                            <span class="author">By Houston Spartans</span>
+                            <span class="date">January 4, 2025</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <h2>CONTACT INFORMATION</h2>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">SUBMIT</button>
+                    </form>
+                    <p class="contact-text">FEEL FREE TO CONTACT US</p>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>OUR LOCATION</h3>
+                        <p>Houston, Texas</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>EMAIL ADDRESS</h3>
+                        <p>houstontxspartans@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mission-statement">
+                <p>At the Houston Spartans, our mission is to empower every player to achieve their goals and unlock their full potential at the highest level. We serve as a vital bridge for high school E-Sports, guiding them toward collegiate opportunities, helping them secure scholarships, and paving the way for professional aspirations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>LATEST POSTS</h3>
+                    <div class="footer-posts">
+                        <a href="#">RECAP: MIAMI LAN – ACADEMY RED</a>
+                        <a href="#">HOUSTON SPARTANS 4V4 BO3 VARIANT TOURNAMENT</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <div class="social-media">
+                        <a href="#" aria-label="Follow us on Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" aria-label="Follow us on X/Twitter">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="#" aria-label="Follow us on Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" aria-label="Visit our Linktree">
+                            <i class="fas fa-link"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-links">
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">FAQs</a>
+                    <a href="#">Home</a>
+                </div>
+                <p class="copyright">© 2025 Houston Spartans. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
